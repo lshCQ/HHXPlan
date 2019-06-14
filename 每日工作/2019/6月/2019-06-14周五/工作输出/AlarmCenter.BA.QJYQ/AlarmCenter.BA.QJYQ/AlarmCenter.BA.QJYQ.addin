@@ -1,0 +1,31 @@
+<AddIn name        = "AlarmCenter.BA.QJYQ"
+       author      = "Shendong"
+       copyright   = "prj:///doc/copyright.txt"
+       url         = ""
+       description = "Display JFJKDEMO">
+
+  <Manifest>
+    <Identity name = "AlarmCenter.BA.QJYQ"/>
+  </Manifest>
+
+  <!--  AlarmCenter.BA.HYS.dll就是本项目编译出来的插件动态库 -->
+  <Runtime>
+    <Import assembly="AlarmCenter.BA.QJYQ.dll"/>
+  </Runtime>
+
+  <!--  在“查看”菜单栏添加页面菜单项 -->
+  <Path name = "/SharpDevelop/Workbench/MainMenu/View">
+    <MenuItem id = "BA_PaifengPage"
+               icon = "Icons.16x16.FindInFiles"
+		          label = "排风"
+		          class = "PageMenuCommand(AlarmCenter.BA.QJYQ.BA_PaifengPage)"/>
+  </Path>
+
+  <!--  添加程序启动时自动打开的页面 -->
+  <Path name = "/Workspace/AutostartNothingLoaded">
+    <Class id = "HomePage"
+		       class = "PageMenuCommand(AlarmCenter.BA.QJYQ.BA_PaifengPage)"/>
+  </Path>
+
+</AddIn>
+

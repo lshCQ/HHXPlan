@@ -1,0 +1,201 @@
+﻿<gwccHu:GWPageContentControl x:Class="AlarmCenter.BA.QJYQ.BA_KongtiaoPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:gwcc="clr-namespace:AlarmCenter.GWWPFControls;assembly=GWWPFControls"
+             xmlns:gwccHu="clr-namespace:AlarmCenter.GWWpfCustomControlLibrary;assembly=GWWpfCustomControlLibrary"
+             xmlns:gwuc="clr-namespace:AlarmCenter.GWUserControlLibrary;assembly=GWUserControlLibrary" 
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:ed="http://schemas.microsoft.com/expression/2010/drawing" 
+             mc:Ignorable="d" 
+             d:DesignHeight="1080" d:DesignWidth="1920"
+             HeaderText="空调机组" IsViewboxEnabled="True">
+    <Canvas Height="1020" Width="1920">
+        <!--图片部分-->
+        <Image Height="618.672" Canvas.Left="247.169" Canvas.Top="81.209" Width="1425.878" Source="Images/空调风机.png"/>
+        <gwccHu:GWRotationImage Height="100" Canvas.Left="1097.37" Canvas.Top="418.295" Width="100" Source="Images/扇叶.png" IsRotatingExpression="True"/>
+
+        <!--图片线条部分-->
+        <gwcc:GWFlowLine Height="36.393" Canvas.Left="167.681" Canvas.Top="197.991" Width="218.355" StopFlowExpression="FALSE" GWFlowDirectionExpression="TRUE">
+            <Path Data="M2.9999994,3.0000003 L153.119,3.0000003" Height="6" Canvas.Left="15.196" Stroke="#FFFFB433" StrokeThickness="6" Canvas.Top="15.196" Width="156.119" StrokeDashArray="3.5 2"/>
+        </gwcc:GWFlowLine>
+        <gwcc:GWFlowLine Height="36.393" Canvas.Left="167.681" Canvas.Top="223.337" Width="218.355" StopFlowExpression="FALSE" GWFlowDirectionExpression="TRUE">
+            <Path Data="M2.9999994,3.0000003 L153.119,3.0000003" Height="6" Canvas.Left="15.196" Stroke="#FFFFB433" StrokeThickness="6" Canvas.Top="15.196" Width="156.119" StrokeDashArray="3.5 2"/>
+        </gwcc:GWFlowLine>
+        <gwcc:GWFlowLine Height="36.393" Canvas.Left="167.681" Canvas.Top="382.083" Width="218.355" StopFlowExpression="FALSE" GWFlowDirectionExpression="TRUE">
+            <Path Data="M2.9999994,3.0000003 L153.119,3.0000003" Height="6" Canvas.Left="15.196" Stroke="#FF38F838" StrokeThickness="6" Canvas.Top="15.196" Width="156.119" StrokeDashArray="3.5 2"/>
+        </gwcc:GWFlowLine>
+        <gwcc:GWFlowLine Height="36.393" Canvas.Left="167.681" Canvas.Top="406.762" Width="218.355" StopFlowExpression="FALSE" GWFlowDirectionExpression="TRUE">
+            <Path Data="M2.9999994,3.0000003 L153.119,3.0000003" Height="6" Canvas.Left="15.196" Stroke="#FF38F838" StrokeThickness="6" Canvas.Top="15.196" Width="156.119" StrokeDashArray="3.5 2"/>
+        </gwcc:GWFlowLine>
+        <gwcc:GWFlowLine Height="36.393" Canvas.Left="167.681" Canvas.Top="432.108" Width="218.355" StopFlowExpression="FALSE" GWFlowDirectionExpression="TRUE">
+            <Path Data="M2.9999994,3.0000003 L153.119,3.0000003" Height="6" Canvas.Left="15.196" Stroke="#FF38F838" StrokeThickness="6" Canvas.Top="15.196" Width="156.119" StrokeDashArray="3.5 2"/>
+        </gwcc:GWFlowLine>
+        <gwcc:GWFlowLine Height="36.393" Canvas.Left="1328.871" Canvas.Top="197.578" Width="218.355" StopFlowExpression="FALSE" GWFlowDirectionExpression="TRUE">
+            <Path Data="M2.9999994,3.0000003 L153.119,3.0000003" Height="6" Canvas.Left="15.196" Stroke="#FFBA6300" StrokeThickness="6" Canvas.Top="15.196" Width="156.119" StrokeDashArray="3.5 2"/>
+        </gwcc:GWFlowLine>
+        <gwcc:GWFlowLine Height="36.393" Canvas.Left="1328.871" Canvas.Top="220.923" Width="218.355" StopFlowExpression="FALSE" GWFlowDirectionExpression="TRUE">
+            <Path Data="M2.9999994,3.0000003 L153.119,3.0000003" Height="6" Canvas.Left="15.196" Stroke="#FFBA6300" StrokeThickness="6" Canvas.Top="15.196" Width="156.119" StrokeDashArray="3.5 2"/>
+        </gwcc:GWFlowLine>
+        <!--箭头-->
+        <ed:RegularPolygon Fill="#FFFFB433" Height="21.11" InnerRadius="1" Canvas.Left="337.892" PointCount="3" Stretch="Fill" Stroke="#FFFFB433" StrokeThickness="6" Canvas.Top="205.043" Width="16.702" RenderTransformOrigin="0.5,0.5">
+            <ed:RegularPolygon.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="89.946"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </ed:RegularPolygon.RenderTransform>
+        </ed:RegularPolygon>
+        <ed:RegularPolygon Fill="#FFFFB433" Height="21.11" InnerRadius="1" Canvas.Left="337.892" PointCount="3" Stretch="Fill" Stroke="#FFFFB433" StrokeThickness="6" Canvas.Top="230.389" Width="16.702" RenderTransformOrigin="0.5,0.5">
+            <ed:RegularPolygon.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="89.946"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </ed:RegularPolygon.RenderTransform>
+        </ed:RegularPolygon>
+        <ed:RegularPolygon Fill="#FF38F838" Height="21.11" InnerRadius="1" Canvas.Left="338.567" PointCount="3" Stretch="Fill" Stroke="#FF38F838" StrokeThickness="6" Canvas.Top="389.434" Width="16.702" RenderTransformOrigin="0.5,0.5">
+            <ed:RegularPolygon.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="89.946"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </ed:RegularPolygon.RenderTransform>
+        </ed:RegularPolygon>
+        <ed:RegularPolygon Fill="#FF38F838" Height="21.11" InnerRadius="1" Canvas.Left="338.567" PointCount="3" Stretch="Fill" Stroke="#FF38F838" StrokeThickness="6" Canvas.Top="414.113" Width="16.702" RenderTransformOrigin="0.5,0.5">
+            <ed:RegularPolygon.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="89.946"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </ed:RegularPolygon.RenderTransform>
+        </ed:RegularPolygon>
+        <ed:RegularPolygon Fill="#FF38F838" Height="21.11" InnerRadius="1" Canvas.Left="338.567" PointCount="3" Stretch="Fill" Stroke="#FF38F838" StrokeThickness="6" Canvas.Top="439.459" Width="16.702" RenderTransformOrigin="0.5,0.5">
+            <ed:RegularPolygon.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="89.946"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </ed:RegularPolygon.RenderTransform>
+        </ed:RegularPolygon>
+        <ed:RegularPolygon Fill="#FFBA6300" Height="21.11" InnerRadius="1" Canvas.Left="1497.461" PointCount="3" Stretch="Fill" Stroke="#FFBA6300" StrokeThickness="6" Canvas.Top="204.496" Width="16.702" RenderTransformOrigin="0.5,0.5">
+            <ed:RegularPolygon.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="89.946"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </ed:RegularPolygon.RenderTransform>
+        </ed:RegularPolygon>
+        <ed:RegularPolygon Fill="#FFBA6300" Height="21.11" InnerRadius="1" Canvas.Left="1497.461" PointCount="3" Stretch="Fill" Stroke="#FFBA6300" StrokeThickness="6" Canvas.Top="228.496" Width="16.702" RenderTransformOrigin="0.5,0.5">
+            <ed:RegularPolygon.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="89.946"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </ed:RegularPolygon.RenderTransform>
+        </ed:RegularPolygon>
+        <!--图片线条部分结束-->
+
+        <!--图片部分结束-->
+
+        <!--文字按钮部分-->
+        <!--值-->
+        <gwcc:ValueLable Height="38" Canvas.Left="1155.083" Canvas.Top="266.911" Width="143.548" CornerRadius="0" ShowLinearBorder="False" Background="White" Foreground="Black" MyContent="433.2 ppm"/>
+        <gwcc:ValueLable Height="38" Canvas.Left="703.085" Canvas.Top="266.911" Width="143.548" CornerRadius="0" ShowLinearBorder="False" Background="White" Foreground="Black" MyContent="433.2 ppm"/>
+        <gwcc:ValueLable Height="38" Canvas.Left="591.652" Canvas.Top="602" Width="143.548" CornerRadius="0" ShowLinearBorder="False" Background="White" Foreground="Black" MyContent="76.6%"/>
+        <gwcc:ValueLable Height="38" Canvas.Left="1328.871" Canvas.Top="97" Width="143.548" CornerRadius="0" ShowLinearBorder="False" Background="White" Foreground="Black" MyContent="25 ℃"/>
+        <gwcc:ValueLable Height="38" Canvas.Left="1059.42" Canvas.Top="602" Width="143.548" CornerRadius="0" ShowLinearBorder="False" Background="White" Foreground="Black" MyContent="自动"/>
+
+        <!--值-->
+        <!--按钮-->
+
+        <gwcc:GWButton Background="#FF09A55A" RenderTransformOrigin="0.5,0.5" HorizontalContentAlignment="Center" FontSize="21.333" FontWeight="Bold" Foreground="White" VerticalContentAlignment="Center" ClickCmd="" Width="130" Height="38" Canvas.Left="605.2" Canvas.Top="830.473" BackgroundForFalse="White" BackgroundForTrue="#FFCC1F1F" ClickCmdForFalse="" ContentForFalse="开启" ContentForTrue="停止" FlashExpression="$ASC(210,16)" StateExpression="$ASC(210,16)"  ForegroundForFalse="#FF020202" GWButtonStyle="NormalStyle">
+            <gwcc:GWButton.Effect>
+                <DropShadowEffect/>
+            </gwcc:GWButton.Effect>
+            <gwcc:GWButton Content="B  区" Background="#FF09A55A" RenderTransformOrigin="0.5,0.5" HorizontalContentAlignment="Center" FontSize="21.333" FontWeight="Bold" Foreground="White" VerticalContentAlignment="Center" ClickCmd="EP10" Width="93.873" Height="36.543" BackgroundForFalse="#FF09A55A" BackgroundForTrue="#FFCC1F1F" ClickCmdForFalse="EP10" ContentForFalse="正常" ContentForTrue="报警" FlashExpression="$ASC(210,16)" StateExpression="$ASC(210,16)" >
+                <gwcc:GWButton.Effect>
+                    <DropShadowEffect/>
+                </gwcc:GWButton.Effect>
+            </gwcc:GWButton>
+        </gwcc:GWButton>
+        <gwcc:GWButton Background="#FF09A55A" RenderTransformOrigin="0.5,0.5" HorizontalContentAlignment="Center" FontSize="21.333" FontWeight="Bold" Foreground="White" VerticalContentAlignment="Center" ClickCmd="" Width="130" Height="38" Canvas.Left="791.627" Canvas.Top="831.743" BackgroundForFalse="White" BackgroundForTrue="#FFCC1F1F" ClickCmdForFalse="" ContentForFalse="开启" ContentForTrue="停止" FlashExpression="$ASC(210,16)" StateExpression="$ASC(210,16)"  ForegroundForFalse="#FF020202" GWButtonStyle="NormalStyle">
+            <gwcc:GWButton.Effect>
+                <DropShadowEffect/>
+            </gwcc:GWButton.Effect>
+            <gwcc:GWButton Content="B  区" Background="#FF09A55A" RenderTransformOrigin="0.5,0.5" HorizontalContentAlignment="Center" FontSize="21.333" FontWeight="Bold" Foreground="White" VerticalContentAlignment="Center" ClickCmd="EP10" Width="93.873" Height="36.543" BackgroundForFalse="#FF09A55A" BackgroundForTrue="#FFCC1F1F" ClickCmdForFalse="EP10" ContentForFalse="正常" ContentForTrue="报警" FlashExpression="$ASC(210,16)" StateExpression="$ASC(210,16)" >
+                <gwcc:GWButton.Effect>
+                    <DropShadowEffect/>
+                </gwcc:GWButton.Effect>
+            </gwcc:GWButton>
+        </gwcc:GWButton>
+        <gwcc:GWButton Background="#FF09A55A" RenderTransformOrigin="0.5,0.5" HorizontalContentAlignment="Center" FontSize="21.333" FontWeight="Bold" Foreground="White" VerticalContentAlignment="Center" ClickCmd="" Width="130" Height="38" Canvas.Left="984.76" Canvas.Top="831.743" BackgroundForFalse="White" BackgroundForTrue="#FFCC1F1F" ClickCmdForFalse="" ContentForFalse="开启" ContentForTrue="停止" FlashExpression="$ASC(210,16)" StateExpression="$ASC(210,16)"  ForegroundForFalse="#FF020202" GWButtonStyle="NormalStyle">
+            <gwcc:GWButton.Effect>
+                <DropShadowEffect/>
+            </gwcc:GWButton.Effect>
+            <gwcc:GWButton Content="B  区" Background="#FF09A55A" RenderTransformOrigin="0.5,0.5" HorizontalContentAlignment="Center" FontSize="21.333" FontWeight="Bold" Foreground="White" VerticalContentAlignment="Center" ClickCmd="EP10" Width="93.873" Height="36.543" BackgroundForFalse="#FF09A55A" BackgroundForTrue="#FFCC1F1F" ClickCmdForFalse="EP10" ContentForFalse="正常" ContentForTrue="报警" FlashExpression="$ASC(210,16)" StateExpression="$ASC(210,16)" >
+                <gwcc:GWButton.Effect>
+                    <DropShadowEffect/>
+                </gwcc:GWButton.Effect>
+            </gwcc:GWButton>
+        </gwcc:GWButton>
+
+        <gwcc:GWButton Background="#FF0E8720" RenderTransformOrigin="0.5,0.5" HorizontalContentAlignment="Center" FontSize="21.333" FontWeight="Bold" Foreground="White" VerticalContentAlignment="Center" ClickCmd="" Width="130" Height="38" Canvas.Left="1184.882" Canvas.Top="831.743" BackgroundForFalse="#FF0E8720" BackgroundForTrue="#FFCC1F1F" ClickCmdForFalse="" ContentForFalse="正常" ContentForTrue="报警" FlashExpression="$ASC(210,16)" StateExpression="$ASC(210,16)"  ForegroundForFalse="#FF020202" GWButtonStyle="NormalStyle" Content="正常">
+            <gwcc:GWButton.Effect>
+                <DropShadowEffect/>
+            </gwcc:GWButton.Effect>
+        </gwcc:GWButton>
+        <!--按钮-->
+
+        <!--文字-->
+        <TextBlock Height="78.851" Canvas.Left="157.875" TextWrapping="Wrap" Canvas.Top="189.842" Width="28.305" FontSize="26.667"><Run Language="zh-cn" Text="回风"/></TextBlock>
+        <TextBlock Height="78.851" Canvas.Left="157.875" TextWrapping="Wrap" Canvas.Top="389.65" Width="28.305" FontSize="26.667"><Run Language="zh-cn" Text="新风"/></TextBlock>
+        <TextBlock Height="73.071" Canvas.Left="1159.127" TextWrapping="Wrap" Canvas.Top="196.254" Width="139.504" FontSize="26.667"><Run Text="送风机压差"/><LineBreak/><Run Text="     "/><Run Text="报警"/></TextBlock>
+        <TextBlock Height="70.657" Canvas.Left="703.49" TextWrapping="Wrap" Canvas.Top="196.254" Width="143.143" FontSize="26.667"><Run Text="过滤器压差"/><LineBreak/><Run Text="     "/><Run Text="报警"/></TextBlock>
+        <TextBlock Canvas.Left="742.176" TextWrapping="Wrap" Canvas.Top="588.928" FontSize="18.667" Text="供水"/>
+        <TextBlock Canvas.Left="742.176" TextWrapping="Wrap" Canvas.Top="636.399" FontSize="18.667" Text="回水"/>
+        <TextBlock Height="38.415" Canvas.Left="574.367" TextWrapping="Wrap" Canvas.Top="558.585" Width="167.809" FontSize="26.667" Text="    水阀开度"/>
+        <TextBlock Height="38.415" Canvas.Left="1345.045" TextWrapping="Wrap" Canvas.Top="52.36" Width="117.264" FontSize="26.667"><Run Language="zh-cn" Text="送风温度"/></TextBlock>
+        <TextBlock Height="38" Canvas.Left="613.557" TextWrapping="Wrap" Canvas.Top="781.213" Width="139.504" FontSize="26.667"><Run Language="zh-cn" Text="设备启停"/></TextBlock>
+        <TextBlock Height="38" Canvas.Left="791.627" TextWrapping="Wrap" Canvas.Top="762.213" Width="142.537" FontSize="26.667" Text="新风阀开关"/>
+        <TextBlock Height="38" Canvas.Left="969.911" TextWrapping="Wrap" Canvas.Top="781.213" Width="165.304" FontSize="26.667" Text="运行状态表示"/>
+        <TextBlock Height="38" Canvas.Left="1194.196" TextWrapping="Wrap" Canvas.Top="781.213" Width="165.304" FontSize="26.667" Text="故障报警"/>
+        <TextBlock Canvas.Left="828.84" TextWrapping="Wrap" Canvas.Top="795.213" FontSize="26.667" Text="控制"/>
+        <TextBlock Height="78.851" Canvas.Left="1678.047" TextWrapping="Wrap" Canvas.Top="189.842" Width="28.305" FontSize="26.667"><Run Language="zh-cn" Text="送风"/></TextBlock>
+        <TextBlock Height="38.415" Canvas.Left="1063.464" TextWrapping="Wrap" Canvas.Top="558.585" Width="139.504" FontSize="26.667"><Run Language="zh-cn" Text="自动/手动"/></TextBlock>
+
+        <!--文字-->
+
+        <!--底部外框-->
+        <Rectangle Height="162.249" Canvas.Left="485.408" Stroke="Black" Canvas.Top="740.542" Width="43.974" RadiusX="20" RadiusY="20">
+            <Rectangle.Fill>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FF9CB197"/>
+                    <GradientStop Color="#FF298D0E" Offset="1"/>
+                </RadialGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Height="161.738" Canvas.Left="484.495" RadiusY="20" RadiusX="20" Stroke="#FF1C8E9D" Canvas.Top="741.053" Width="942.565" StrokeThickness="3"/>
+        <TextBlock Height="141.022" Canvas.Left="492.484" TextWrapping="Wrap" Canvas.Top="750.572" Width="28.305" FontSize="26.667" Foreground="White">
+            <TextBlock.Background>
+                <ImageBrush/>
+            </TextBlock.Background><Run Language="zh-cn" Text="系统参数"/></TextBlock>
+        <!--底部外框-->
+        <!--文字按钮部分结束-->
+
+    </Canvas>
+</gwccHu:GWPageContentControl>

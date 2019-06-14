@@ -1,0 +1,59 @@
+﻿<gwccHu:GWPageContentControl x:Class="AlarmCenter.BA.QJYQ.BA_tanchuPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:gwcc="clr-namespace:AlarmCenter.GWWPFControls;assembly=GWWPFControls"
+      xmlns:gwccHu="clr-namespace:AlarmCenter.GWWpfCustomControlLibrary;assembly=GWWpfCustomControlLibrary"
+      xmlns:gwuc="clr-namespace:AlarmCenter.GWUserControlLibrary;assembly=GWUserControlLibrary" 
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="1080" d:DesignWidth="1920"
+      HeaderText="排风弹出页面" IsViewboxEnabled="True">
+    <Canvas Height="1020" Width="1920">
+        <!--顶部返回按钮开始-->
+        <gwcc:GWButton Content="" Height="50" Canvas.Left="15" Canvas.Top="0" Width="90" ClickCmd="EP1" ClickCmdForFalse="EP1">
+            <gwcc:GWButton.Background>
+                <ImageBrush ImageSource="Images/返回按钮.png"/>
+            </gwcc:GWButton.Background>
+        </gwcc:GWButton>
+        <!--顶部返回按钮结束-->
+
+        <!--顶部按钮（中间）开始-->
+        <Rectangle Height="66.769" Canvas.Left="280.948" Canvas.Top="8" Width="413.551" Fill="#FF3D3C3C" StrokeThickness="2" RadiusX="5" RadiusY="5">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                    <GradientStop Color="#FF766D6D" Offset="1"/>
+                    <GradientStop Color="White"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+            <Rectangle.Effect>
+                <DropShadowEffect/>
+            </Rectangle.Effect>
+        </Rectangle>
+        <gwcc:GWButton Content="1.1集水坑" Height="40" Canvas.Left="325.631" Canvas.Top="19.24" Width="150" FontSize="21.333" BorderBrush="Gray" Background="{x:Null}" Margin="0" BorderThickness="1" ClickCmd="EP207" ClickCmdForFalse="EP207" Foreground="Yellow"/>
+        <gwcc:GWEllipse Height="35" Canvas.Left="287.348" Canvas.Top="21.241" Width="35"/>
+        <gwcc:GWEllipse Height="40" Canvas.Left="490.014" Canvas.Top="19.24" Width="40"/>
+        <gwcc:GWButton Content="1.2集水坑" Height="40" Canvas.Left="534.014" Canvas.Top="21.241" Width="150" FontSize="21.333" BorderBrush="Gray" Background="{x:Null}" Margin="0" BorderThickness="1" ClickCmd="EP211" ClickCmdForFalse="EP211" Foreground="Yellow"/>
+
+        <Rectangle Height="66.769" Canvas.Left="714.836" Canvas.Top="8" Width="881.534" Fill="#FF3D3C3C" StrokeThickness="2" RadiusX="5" RadiusY="5">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                    <GradientStop Color="#FF766D6D" Offset="1"/>
+                    <GradientStop Color="White"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+            <Rectangle.Effect>
+                <DropShadowEffect/>
+            </Rectangle.Effect>
+        </Rectangle>
+        <gwcc:GWEllipse Height="40" Canvas.Left="723.354" Canvas.Top="19.24" Width="40"/>
+        <gwcc:GWEllipse Height="40" Canvas.Left="947.291" Canvas.Top="19.24" Width="40"/>
+        <gwcc:GWButton Content="1.1排风机" Height="40" Canvas.Left="774.83" Canvas.Top="21.241" Width="150" FontSize="21.333" BorderBrush="Gray" Background="{x:Null}" Margin="0" BorderThickness="1" ClickCmd="EP219" ClickCmdForFalse="EP219" Foreground="Yellow"/>
+        <gwcc:GWButton Content="1.2排风机-1/2" Height="40" Canvas.Left="991.291" Canvas.Top="21.241" Width="150" FontSize="21.333" BorderBrush="Gray" Background="{x:Null}" Margin="0" BorderThickness="1" ClickCmd="EP220" ClickCmdForFalse="EP220" Foreground="Yellow"/>
+        <gwcc:GWEllipse Height="40" Canvas.Left="1163" Canvas.Top="19.24" Width="40" FlashExpression="true" StateExpression="true"/>
+        <gwcc:GWButton Content="1.2排风机-3/4" Height="40" Canvas.Left="1207" Canvas.Top="21.241" Width="150" FontSize="21.333" BorderBrush="Gray" Background="{x:Null}" Margin="0" BorderThickness="1" ClickCmd="" ClickCmdForFalse="" Foreground="Yellow"/>
+        <gwcc:GWEllipse Height="40" Canvas.Left="1385.5" Canvas.Top="19.24" Width="40"/>
+        <gwcc:GWButton Content="1.2排风机-5" Height="40" Canvas.Left="1429.5" Canvas.Top="21.241" Width="150" FontSize="21.333" BorderBrush="Gray" Background="{x:Null}" Margin="0" BorderThickness="1" ClickCmd="EP222" ClickCmdForFalse="EP222" Foreground="Yellow"/>
+        <!--顶部按钮（中间）结束-->
+    </Canvas>
+</gwccHu:GWPageContentControl>
